@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'profiles/new'
+
   #root "posts#index"
 
   root "welcome#index"
